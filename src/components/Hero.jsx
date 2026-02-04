@@ -4,6 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion as Motion } from 'framer-motion';
+import profileImg from '../assets/Trisa Dominic.jpg';
 
 const Hero = () => {
     const stats = [
@@ -50,7 +51,7 @@ const Hero = () => {
                             {/* Image Container */}
                             <div className="w-full h-full rounded-full overflow-hidden border-4 border-gray-900 relative z-10 bg-black">
                                 <img
-                                    src="/src/assets/Trisa Dominic.jpg"
+                                    src={profileImg}
                                     alt="Trisa Dominic"
                                     className="w-full h-full object-cover object-top hover:scale-110 duration-500"
                                     onError={(e) => {

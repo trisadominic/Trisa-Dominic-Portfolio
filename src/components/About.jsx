@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion as Motion } from 'framer-motion';
+import graduateImg from '../assets/graduate.jpeg';
 
 const About = () => {
     return (
@@ -99,7 +100,7 @@ const About = () => {
                                 {/* Image Container */}
                                 <div className="relative h-full rounded-2xl overflow-hidden border-4 border-gray-800 group-hover:border-cyan-500 transition-all duration-300 shadow-2xl bg-gray-900">
                                     <img
-                                        src="/src/assets/graduate.jpeg"
+                                        src={graduateImg}
                                         alt="Trisa Dominic"
                                         className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
                                         onError={(e) => {
