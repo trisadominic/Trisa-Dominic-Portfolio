@@ -7,7 +7,7 @@ const Experience = () => {
             id: 1,
             role: "React Developer Intern",
             company: "EOXON",
-            duration: "Present (3 Months)",
+            duration: "February 2026 - April 2026",
             description: [
                 "Developing dynamic and responsive user interfaces using React.js and Tailwind CSS.",
                 "Collaborating with the backend team to integrate RESTful APIs.",
